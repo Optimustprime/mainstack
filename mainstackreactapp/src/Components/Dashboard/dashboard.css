@@ -1,0 +1,37 @@
+.dashboard{
+    width: 304px;
+    padding-top: 39px;
+    padding-bottom: 60px;
+    border-right: 0.5px solid #EFF1F6;
+}
+.logo{
+    padding-left: 60px;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 50px;
+}
+.dash-heading{
+    font-family: 'Söhne', serif;
+    font-size: 12px;
+    color: #4D5760;
+    padding-top: 8px;
+    padding-left: 60px;
+    padding-bottom: 22px;
+    font-weight: 300;
+}
+.dash-profile{
+    margin-top: 198px;
+    display: inline-flex;
+    gap: 12px;
+    font-family: 'Söhne';
+    font-size: 15px;
+    color: #4D5760;
+    font-weight: 500;
+    padding-left: 60px;
+    align-items: center;
+}
+.dash-profile img{
+    height: 32px;
+    border-radius: 20px;
+
+}

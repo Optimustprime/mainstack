@@ -11,3 +11,116 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Söhne';
+  src: url('/public/fonts/test-sohne-font/TestSöhne-Extraleicht.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Söhne';
+  src: url('/public/fonts/test-sohne-font/TestSöhne-ExtrafettKursiv.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Söhne';
+  src: url('/public/fonts/test-sohne-font/TestSöhne-Leicht.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Söhne';
+  src: url('/public/fonts/test-sohne-font/TestSöhne-LeichtKursiv.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Söhne';
+  src: url('/public/fonts/test-sohne-font/TestSöhneBreit-Buch.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Söhne';
+  src: url('/public/fonts/test-sohne-font/TestSöhneBreit-BuchKursiv.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Söhne';
+  src: url('/public/fonts/test-sohne-font/TestSöhne-Kräftig.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Söhne';
+  src: url('/public/fonts/test-sohne-font/TestSöhne-KräftigKursiv.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Söhne';
+  src: url('/public/fonts/test-sohne-font/TestSöhneBreit-Halbfett.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Söhne';
+  src: url('/public/fonts/test-sohne-font/TestSöhneBreit-HalbfettKursiv.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Söhne';
+  src: url('/public/fonts/test-sohne-font/TestSöhneBreit-Dreiviertelfett.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Söhne';
+  src: url('/public/fonts/test-sohne-font/TestSöhneBreit-DreiviertelfettKursiv.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Söhne';
+  src: url('/public/fonts/test-sohne-font/TestSöhneBreit-Fett.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Söhne';
+  src: url('/public/fonts/test-sohne-font/TestSöhneBreit-FettKursiv.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Söhne';
+  src: url('/public/fonts/test-sohne-font/TestSöhneMono-Extrafett.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Söhne';
+  src: url('/public/fonts/test-sohne-font/TestSöhneMono-Extrafett.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+/* Add additional @font-face rules for other weights and styles as needed */
+

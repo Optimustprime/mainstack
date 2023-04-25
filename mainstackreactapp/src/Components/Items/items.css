@@ -1,0 +1,14 @@
+.items{
+    display: inline-flex;
+    gap: 15px;
+    font-family: 'Söhne', serif;
+    font-size: 16px;
+    margin-bottom: 24px;
+    font-weight: 500;
+    align-items: center;
+}
+.items-outline{
+    width: 2px;
+    height: 28px;
+    margin-right: 46px;
+}
