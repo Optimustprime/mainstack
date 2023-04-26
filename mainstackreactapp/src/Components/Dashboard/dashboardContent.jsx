@@ -83,6 +83,30 @@ function DashboardContent() {
             setDates([dates[0]]);
             setValues([values[0]]);
         };
+        const handleSecondClick = () => {
+            const reducedDates = dates.slice(0, 3);
+            const reducedValues = values.slice(0, 3);
+            setDates(reducedDates);
+            setValues(reducedValues);
+        };
+        const handlethirdClick = () => {
+            const reducedDates = dates.slice(0, 7);
+            const reducedValues = values.slice(0, 7);
+            setDates(reducedDates);
+            setValues(reducedValues);
+        };
+        const handleFourthClick = () => {
+            const reducedDates = dates.slice(0, 30);
+            const reducedValues = values.slice(0, 30);
+            setDates(reducedDates);
+            setValues(reducedValues);
+        };
+        const allTimeClick = () => {
+            const reducedDates = dates.slice(0, 30);
+            const reducedValues = values.slice(0, 30);
+            setDates(reducedDates);
+            setValues(reducedValues);
+        };
 
 
 
@@ -101,11 +125,11 @@ function DashboardContent() {
                     </div>
                     <div className='buttons'>
                         <Button days='1 Day' onClick={handleFirstClick}/>
-                        <Button days='3 Days' onClick={handleFirstClick}/>
-                        <Button days='7 Days' onClick={handleFirstClick}/>
-                        <Button days='30 Days' onClick={handleFirstClick}/>
-                        <Button days='All Time' onClick={handleFirstClick}/>
-                        <Button days='Custome Date' onClick={handleFirstClick}/>
+                        <Button days='3 Days' onClick={handleSecondClick}/>
+                        <Button days='7 Days' onClick={handlethirdClick}/>
+                        <Button days='30 Days' onClick={handleFourthClick}/>
+                        <Button days='All Time' onClick={allTimeClick}/>
+                        <Button days='Custome Date' onClick={allTimeClick}/>
                     </div>
 
                 </div>
@@ -119,7 +143,7 @@ function DashboardContent() {
                             500
                         </div>
                     </div>
-                    <LineGraph xValues={dates} yValues={values} />
+                    <LineGraph xValues={stateDates} yValues={stateValues} />
                 </div>
                 <div className='othercontent'>
                     <DoughnutContent colorsList={colorsList} imageList={imageList} data={data} labels={labels} countriesList={countriesList} header='Top Locations'/>

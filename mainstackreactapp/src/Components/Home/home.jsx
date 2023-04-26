@@ -5,7 +5,7 @@ import DashboardContent from "../Dashboard/dashboardContent";
 export default function Home(){
 
     return(
-        <div>
+        <div className='maximum'>
             <div className='home'>
                 <Dashboard/>
                 <DashboardContent/>

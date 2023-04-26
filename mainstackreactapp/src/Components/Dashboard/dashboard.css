@@ -172,3 +172,6 @@
     display: inline-flex;
     gap: 12px;
 }
+.maximum{
+    height: 100vh;
+}
