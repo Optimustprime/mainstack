@@ -4,6 +4,9 @@
     padding-bottom: 60px;
     border-right: 0.5px solid #EFF1F6;
 }
+.home{
+    display: inline-flex;
+}
 .logo{
     padding-left: 60px;
     width: 40px;
@@ -33,5 +36,139 @@
 .dash-profile img{
     height: 32px;
     border-radius: 20px;
+}
+.countries{
+    display: block;
+    font-family: 'Söhne', serif;
+    font-size: 16px;
+    color: #131316;
+    font-weight: 300;
+}
+.countries img{
+    width: 21px;
+    height: 15px;
+}
+.countries .list{
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 22px;
+}
+.countries span{
+    font-weight: 500;
+}
+.countries .circle{
+    border-radius: 100px;
+    width: 12px;
+    height: 12px;
+}
+.collection{
+    display: inline-flex;
+    gap: 86px;
+    align-items: center;
+}
+.doughnutContainer{
+    height: 160px;
+    width: 160px;
+}
+.othercontent{
+    display: inline-flex;
+    gap: 16px;
+    padding-left: 60px;
+}
+.content{
+    padding-left: 24px;
+    padding-top: 24px;
+    border: 1px solid #EFF1F6;
+    border-radius: 12px;
+    width: 500px;
+    height: 326px;
+}
+.content .head{
+    display: inline-flex;
+    gap: 186px;
+    margin-bottom: 42px;
+}
+.content .head .header{
+    font-family: 'Söhne', serif;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    color: #131316;
+    font-weight: 500;
+    width: 173px;
+}
+.content .head .report{
+    font-family: 'Söhne', serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FF5403;
+    font-weight: 300;
+}
+.lineChart{
+    width: 968px;
+    height: 356px;
+}
+.topLine{
+    font-family: 'Söhne', serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.topLine .small{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 8px;
+}
+.topLine .big{
+    font-size: 48px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.lineChartEnclosing{
+    padding-left: 24px;
+    padding-top: 32px;
+    padding-bottom: 22px;
+    border: 1px solid #EFF1F6;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    margin-left: 60px;
+    margin-top: 24px;
+}
+.Header{
+    padding-top: 22px;
+    padding-left: 60px;
+    font-family: 'Söhne', serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #131316;
+    font-weight: 500;
 
+}
+.greeting{
+    font-size: 24px;
+    margin-top: 47px;
+    margin-bottom: 23px;
+}
+.greeting span{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 10px;
+}
+.Header button{
+    background: #FFFFFF;
+    border: 1px solid #EFF1F6;
+    border-radius: 100px;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    padding: 12px 16px;
+}
+.Header button:active{
+    background: #FFDDCD;
+    color: #FF5403;
+}
+.Header .buttons{
+    display: inline-flex;
+    gap: 12px;
 }
