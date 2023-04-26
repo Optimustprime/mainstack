@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mainstack/static/css/main.e9180a03.css",
-    "main.js": "/mainstack/static/js/main.3a012c06.js",
+    "main.js": "/mainstack/static/js/main.5613ef32.js",
     "static/js/787.0e7b6edf.chunk.js": "/mainstack/static/js/787.0e7b6edf.chunk.js",
     "static/media/TestSöhne-KräftigKursiv.otf": "/mainstack/static/media/TestSöhne-KräftigKursiv.ba8998566c1653bf6268.otf",
     "static/media/TestSöhneBreit-DreiviertelfettKursiv.otf": "/mainstack/static/media/TestSöhneBreit-DreiviertelfettKursiv.734e27210b4fa381e97c.otf",
@@ -20,11 +20,11 @@
     "static/media/TestSöhneMono-Extrafett.otf": "/mainstack/static/media/TestSöhneMono-Extrafett.176fff5e71910079c147.otf",
     "index.html": "/mainstack/index.html",
     "main.e9180a03.css.map": "/mainstack/static/css/main.e9180a03.css.map",
-    "main.3a012c06.js.map": "/mainstack/static/js/main.3a012c06.js.map",
+    "main.5613ef32.js.map": "/mainstack/static/js/main.5613ef32.js.map",
     "787.0e7b6edf.chunk.js.map": "/mainstack/static/js/787.0e7b6edf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9180a03.css",
-    "static/js/main.3a012c06.js"
+    "static/js/main.5613ef32.js"
   ]
 }
